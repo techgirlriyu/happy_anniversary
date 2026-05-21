@@ -126,12 +126,12 @@
     }
 
     .slides h1 {
-        font-size: 28px;
+        font-size: 28px; 
         letter-spacing: 5px;
     }
 
     .slides h2 {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .slides .letter-text {
@@ -147,6 +147,6 @@
     }
 
     .slides video {
-        height: 80%;
+        height: 80% !important;
     }
 }
