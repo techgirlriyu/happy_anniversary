@@ -126,19 +126,20 @@
     }
 
     .slides h1 {
-        font-size: 28px; 
-        letter-spacing: 5px;
+        font-size: 28px !important;
+        letter-spacing: 5px !important;
     }
 
     .slides h2 {
-        font-size: 14px !important;
+        font-size: 11px !important;
+        line-height: 1.4 !important;
     }
 
     .slides .letter-text {
-        font-size: 10px;
+        font-size: 9px !important;
         max-height: 85vh;
         overflow-y: auto;
-        padding: 5px 15px;
+        padding: 5px 15px !important;
     }
 
     .balloon-left,
@@ -147,6 +148,7 @@
     }
 
     .slides video {
-        height: 80% !important;
+        height: 75% !important;
+        width: auto !important;
     }
 }
